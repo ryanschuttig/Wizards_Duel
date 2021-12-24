@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <!-- Title in Tab -->
     <title>Wizard's Duel</title>
 </head>
@@ -15,11 +16,11 @@
     <h1>Wizard's Duel</h1>
     <!-- Holds the Start Button -->
     <div class="container">
-        <button class="start">Start</button>
+        <button class="start" onclick="start()">Start</button>
     <!-- Holds the two character choices -->
-    <div class="container">
-        <div class="character-select">Select your Character</div>
-        <div class="opponent-select">Select your Opponent</div>
+    <div class="container charScreen">
+        <div class="character-select displayChar">Select your Character</div>
+        <div class="opponent-select displayOpp">Select your Opponent</div>
     </div>
 </div>
 
